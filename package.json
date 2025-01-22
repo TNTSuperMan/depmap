@@ -1,6 +1,6 @@
 {
   "name": "depmap",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "module": "./dist/module.js",
   "main": "./dist/cjs.js",
