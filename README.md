@@ -1,5 +1,5 @@
-# import-map
-generate import map
+# depmap
+generate module dep map
 ## dep
 thanks acorn
 ```
