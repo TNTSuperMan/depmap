@@ -1,0 +1,29 @@
+{
+  "name": "import-map",
+  "version": "0.0.0",
+  "type": "module",
+  "module": "./dist/module.js",
+  "main": "./dist/cjs.js",
+  "types": "./dist/module.d.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.10.7",
+    "bun": "^1.1.45"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "acorn": "^8.14.0"
+  },
+  "bin": {
+    "import-map": "./dist/bin.js"
+  },
+  "scripts": {
+    "build": "bun run build.ts && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TNTSuperMan/import-map"
+  }
+}
