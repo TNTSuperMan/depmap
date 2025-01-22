@@ -18,8 +18,7 @@
     "depmap": "./dist/bin.js"
   },
   "scripts": {
-    "build": "tsc",
-    "prepare": "tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
