@@ -13,7 +13,7 @@
     "moduleResolution": "node",
     "verbatimModuleSyntax": true,
     "noEmit": false,
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
     "declaration": true,
 
     // Best practices
