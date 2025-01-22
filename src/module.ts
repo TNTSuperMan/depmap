@@ -23,6 +23,9 @@ export default (...path: string[]) => {
                         if(existsSync(fname)){
                             list.add(fname)
                             read(fname);
+                        }else if(existsSync(resolve(dirname(path), p, "index.js"))){
+                            list.add(resolve(dirname(path), p, "index.js"));
+                            read(resolve(dirname(path), p, "index.js"));
                         }
                     }
                 }
