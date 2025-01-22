@@ -20,8 +20,10 @@ export default (...path: string[]) => {
                     const p = e.source.value;
                     if(typeof p == "string"){
                         const fname = resolve(dirname(path), /\.js$/.test(p) ? p : p+".js");
-                        if(existsSync(fname))
+                        if(existsSync(fname)){
                             list.add(fname)
+                            read(fname);
+                        }
                     }
                 }
             })
